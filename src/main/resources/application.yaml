@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-ai-demo
+  ai:
+    deepseek:
+      api-key: sk-dbe0138b14c547218a447e04f4468d8d
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-reasoner
+
